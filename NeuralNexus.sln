@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralNexus.Data", "src\NeuralNexus.Data\NeuralNexus.Data.csproj", "{0F801E26-4793-4334-9D63-3DA6DAFB3BF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralNexus.Web", "src\NeuralNexus.Web\NeuralNexus.Web.csproj", "{F43F27A7-3E4B-4D5F-ABBB-F9D87A804800}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIConsole", "src\NeuralNexus.Console\AIConsole.csproj", "{F0C53871-83FF-449E-ABD6-A24C90471A81}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "Docker\docker-compose.dcproj", "{0E52D07D-FBCD-4756-A305-44DDA33EED40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F801E26-4793-4334-9D63-3DA6DAFB3BF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F801E26-4793-4334-9D63-3DA6DAFB3BF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F801E26-4793-4334-9D63-3DA6DAFB3BF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F801E26-4793-4334-9D63-3DA6DAFB3BF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F43F27A7-3E4B-4D5F-ABBB-F9D87A804800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F43F27A7-3E4B-4D5F-ABBB-F9D87A804800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F43F27A7-3E4B-4D5F-ABBB-F9D87A804800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F43F27A7-3E4B-4D5F-ABBB-F9D87A804800}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0C53871-83FF-449E-ABD6-A24C90471A81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0C53871-83FF-449E-ABD6-A24C90471A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0C53871-83FF-449E-ABD6-A24C90471A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0C53871-83FF-449E-ABD6-A24C90471A81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E52D07D-FBCD-4756-A305-44DDA33EED40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E52D07D-FBCD-4756-A305-44DDA33EED40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E52D07D-FBCD-4756-A305-44DDA33EED40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E52D07D-FBCD-4756-A305-44DDA33EED40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
