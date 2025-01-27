@@ -4,6 +4,8 @@ services:
     build:
       context: .
       dockerfile: src/NeuralNexus.Web/Dockerfile
+    depends_on:
+     - ollama
 
   ollama:
     image: ollama/ollama

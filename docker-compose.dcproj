@@ -4,7 +4,8 @@
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
     <DockerPublishLocally>False</DockerPublishLocally>
-    <ProjectGuid>0e52d07d-fbcd-4756-a305-44dda33eed40</ProjectGuid>
+	<DockerComposeProjectName>neuralnexus</DockerComposeProjectName>
+    <ProjectGuid>44df2292-b946-4215-97d8-c56c4e0c04d7</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}</DockerServiceUrl>
     <DockerServiceName>neuralnexus.web</DockerServiceName>
